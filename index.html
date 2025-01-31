@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <header>
+        <h1>Mi Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenido a mi portfolio. Aquí puedes encontrar información sobre mí y mis proyectos.</p>
+        <button id="openPopup">Abrir Pop-up</button>
+    </section>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Nueva Sección</h2>
+            <p>Esta es una nueva sección que aparece en un pop-up.</p>
+        </div>
+    </div>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy [Tu Nombre], un apasionado desarrollador web con experiencia en HTML, CSS, JavaScript y más. Me encanta crear sitios web funcionales y atractivos.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí puedes ver algunos de mis proyectos recientes:</p>
+        <ul>
+            <li><a href="#">Proyecto 1</a></li>
+            <li><a href="#">Proyecto 2</a></li>
+            <li><a href="#">Proyecto 3</a></li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
